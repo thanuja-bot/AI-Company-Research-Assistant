@@ -46,7 +46,7 @@ export interface DiscordConfig {
 }
 
 export const AVAILABLE_MODELS = [
-  { id: 'anthropic/claude-3.5-sonnet', label: 'Claude 3.5 Sonnet (recommended)' },
+  
   { id: 'openai/gpt-4o', label: 'GPT-4o' },
   { id: 'openai/gpt-4o-mini', label: 'GPT-4o mini (fast/cheap)' },
   { id: 'google/gemini-pro-1.5', label: 'Gemini 1.5 Pro' },
