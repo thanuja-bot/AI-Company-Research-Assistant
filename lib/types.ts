@@ -46,9 +46,9 @@ export interface DiscordConfig {
 }
 
 export const AVAILABLE_MODELS = [
-  
-  { id: 'openai/gpt-4o', label: 'GPT-4o' },
   { id: 'openai/gpt-4o-mini', label: 'GPT-4o mini (fast/cheap)' },
+  { id: 'openai/gpt-4o', label: 'GPT-4o' },
+  
   { id: 'google/gemini-pro-1.5', label: 'Gemini 1.5 Pro' },
   { id: 'meta-llama/llama-3.1-70b-instruct', label: 'Llama 3.1 70B Instruct' }
 ] as const;
